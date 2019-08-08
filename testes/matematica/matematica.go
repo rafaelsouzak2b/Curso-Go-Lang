@@ -15,7 +15,3 @@ func Media(numeros ...float64) float64 {
 	mediaArredondada, _ := strconv.ParseFloat(fmt.Sprintf("%.2f", media), 64)
 	return mediaArredondada
 }
-
-func main() {
-
-}
